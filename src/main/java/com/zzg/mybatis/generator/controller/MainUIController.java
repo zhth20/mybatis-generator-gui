@@ -286,7 +286,7 @@ public class MainUIController extends BaseFXController {
         generatorConfig.setMappingXMLTargetFolder(mappingTargetProject.getText());
         generatorConfig.setTableName(tableNameField.getText());
         generatorConfig.setDomainObjectName(domainObjectNameField.getText());
-        generatorConfig.setOffsetLimit(offsetLimitCheckBox.isSelected());
+//        generatorConfig.setOffsetLimit(offsetLimitCheckBox.isSelected());
         generatorConfig.setComment(commentCheckBox.isSelected());
         generatorConfig.setAnnotation(annotationCheckBox.isSelected());
         return generatorConfig;

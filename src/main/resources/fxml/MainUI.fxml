@@ -174,7 +174,7 @@
                                  <children>
                                     <HBox alignment="CENTER_LEFT" spacing="10.0" GridPane.columnIndex="1" GridPane.columnSpan="3" GridPane.rowIndex="8">
                                        <children>
-                                          <CheckBox fx:id="offsetLimitCheckBox" minWidth="100.0" mnemonicParsing="false" selected="true" text="分页" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                                          <!--<CheckBox fx:id="offsetLimitCheckBox" minWidth="100.0" mnemonicParsing="false" selected="true" text="分页" GridPane.columnIndex="1" GridPane.rowIndex="8" />-->
                                           <CheckBox fx:id="commentCheckBox" mnemonicParsing="false" selected="true" text="数据库表注释所有POJO的注释" />
                                        </children>
                                     </HBox>

@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.zzg</groupId>
@@ -8,6 +9,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
 
     <dependencies>
         <dependency>
@@ -73,7 +75,10 @@
         </dependency>
     </dependencies>
 
+    <packaging>jar</packaging>
+
     <build>
+        <finalName>mybatis-genertor</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -86,17 +91,17 @@
             <plugin>
                 <groupId>com.zenjava</groupId>
                 <artifactId>javafx-maven-plugin</artifactId>
-                <version>8.5.0</version>
+                <version>8.8.3</version>
                 <configuration>
                     <mainClass>com.zzg.mybatis.generator.MainUI</mainClass>
-                    <vendor>Owen Zou</vendor>
-                    <verbose>false</verbose>
-                    <jfxMainAppJarName>mybatis-generator-gui.jar</jfxMainAppJarName>
-                    <nativeReleaseVersion>0.1</nativeReleaseVersion>
+                    <vendor>yichuan</vendor>
+                    <nativeReleaseVersion>0.2</nativeReleaseVersion>
                     <needShortcut>true</needShortcut>
-                    <needMenu>true</needMenu>
+                    <!--<needMenu>true</needMenu>-->
                 </configuration>
             </plugin>
         </plugins>
     </build>
+
+
 </project>
